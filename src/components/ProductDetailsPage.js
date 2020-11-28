@@ -19,21 +19,7 @@ export default function ProductDetailsPage() {
         className="shadow-lg bg-orange-600 hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-orange-600 focus:ring-opacity-50 py-2 px-4 rounded-md text-dark text-lg"
         to="/"
       >
-        <svg
-          className="w-6 h-6 inline mr-2"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M10 19l-7-7m0 0l7-7m-7 7h18"
-          ></path>
-        </svg>
-        <span className="text-lg font-bold">Back</span>
+        <span className="text-lg">Back</span>
       </Link>
       <div className="grid md:grid-cols-2 sm:grid-cols-1 mt-4">
         <div className="">
