@@ -13,8 +13,8 @@ import {
 function App() {
   return (
     <Router>
-      <div className="bg-gray-300 min-h-screen">
-        <div className="container m-auto pt-10">
+      <div className="min-h-screen bg-gray-200">
+        <div className="container min-h-screen  m-auto pt-10">
           <Switch>
             <Route exact path="/">
               <ProductsPage />

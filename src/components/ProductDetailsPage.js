@@ -16,10 +16,10 @@ export default function ProductDetailsPage() {
   return (
     <div className="px-4 mt-10">
       <Link
-        className="shadow-lg bg-orange-600 hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-orange-600 focus:ring-opacity-50 py-2 px-4 rounded-md text-dark text-lg"
+        className="shadow-lg bg-orange-600 hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-orange-600 focus:ring-opacity-50 py-2 px-4 rounded-md text-white text-lg"
         to="/"
       >
-        <span className="text-lg">Back</span>
+        <span className="text-lg ">Back</span>
       </Link>
       <div className="grid md:grid-cols-2 sm:grid-cols-1 mt-4">
         <div className="">
