@@ -33,7 +33,7 @@ export default function ProductDetailsPage() {
             d="M10 19l-7-7m0 0l7-7m-7 7h18"
           ></path>
         </svg>
-        <span className="text-lg">Back</span>
+        <span className="text-lg font-bold">Back</span>
       </Link>
       <div className="grid md:grid-cols-2 sm:grid-cols-1 mt-4">
         <div className="">
